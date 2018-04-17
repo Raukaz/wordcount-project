@@ -1,0 +1,13 @@
+Explanations for the "home.html" file
+
+<!-- {{ hithere }} -->
+<!-- This "{% url '' %}" is the format to enter some URL information. The "count" is in urls.py file in "urlpatterns" -->
+
+
+<h2> Another way for WORD COUNT </h2>
+{% for word, counttotal in worddictionary %}
+{{ word }}
+<br>
+{{ counttotal }}
+<br>
+{% endfor %}
